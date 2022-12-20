@@ -4,7 +4,6 @@ from flask import Flask,render_template,request
 import requests
 from datetime import datetime
 import pandas as pd
-import panel as pn
 from datetime import date
 import olddata as old
 
