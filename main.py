@@ -15,7 +15,6 @@ global trendStock
 file = pd.read_excel("MCAP31032022.xlsx")
 compnamedata = []
 api_key = 'e5eefe72ca6d0ae3fe6eed73705d47121f0e3dad99908345f7439f8ffabdffc4'
-pn.extension()
 
 def get_stock_price(api):
     url = f"https://api.stockmarketapi.in/api/v1/allstocks?token={api}"
