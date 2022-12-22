@@ -10,7 +10,7 @@ import olddata as old
 app = Flask(__name__)
 
 global trendStock
-trendStock = []
+trendStock = {}
 file = pd.read_excel("MCAP31032022.xlsx")
 compnamedata = []
 api_key = 'e5eefe72ca6d0ae3fe6eed73705d47121f0e3dad99908345f7439f8ffabdffc4'
