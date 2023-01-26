@@ -276,4 +276,4 @@ if __name__ == '__main__':
     createcompnamelist()
     res = get_stock_price(api_key)
     trendStock = gettrending(res['data'])
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
